@@ -2,7 +2,6 @@ package com.cyf.thread.synchroniz;
 
 /**
  * 关于synchronized关键字的使用
- *
  * @author cyfIverson
  * @create 2018-03-26-22:25
  */

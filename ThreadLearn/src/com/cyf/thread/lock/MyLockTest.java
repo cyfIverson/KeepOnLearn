@@ -28,7 +28,7 @@ public class MyLockTest {
                         arrayList.add(i);
                     }
                 } catch (Exception e) {
-                    //to do
+                    //to handle exception
                 } finally {
                     System.out.println(thread.getName() + "释放锁");
                     lock.unlock();

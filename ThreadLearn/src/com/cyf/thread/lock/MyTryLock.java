@@ -8,10 +8,9 @@ import java.util.concurrent.locks.ReentrantLock;
  *
  * 观察的现象：一个线程获取到锁，另一个线程不会一直等待下去
  * @author cyfIverson
- * @description tryLock()的使用
+ * @description tryLock()的使用  tryLock(7000,TimeUnit.MILLISECONDS) 和tryLock()类似; [获取不到锁，就等7秒，如果7秒后还是获取不到就返回false]
  * @create 2018-04-01-13:42
  */
-
 public class MyTryLock{
     private static ArrayList<Integer> arrayList = new ArrayList<>();
     static Lock lock = new ReentrantLock();     //Lock是接口

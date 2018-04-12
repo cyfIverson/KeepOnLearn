@@ -34,7 +34,7 @@ public class SocketTCPConcurrentServer {
     public static final char REQUEST_END_CHAR = '#';
 
     /**
-     * tcp
+     * TCP协议socket
      */
     private static ServerSocket serverSocket;
 
